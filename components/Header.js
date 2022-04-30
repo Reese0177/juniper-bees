@@ -8,16 +8,20 @@ const Header = () => {
     return (
         <header>
             <div className={styles.navbar}>
+            <Link href="/"><div className={styles.title}>Juniper Bee's</div></Link>
                 <nav className={styles.nav}>
                     <ul className={styles.navList}>
                         <li className={(router.pathname === "/" ? styles.active + " " : "") + styles.navItem}>
                             <Link href="/">Home</Link>
                         </li>
-                        <li className={(router.pathname === "/portfolio" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/portfolio">Portfolio</Link>
-                        </li>
                         <li className={(router.pathname === "/menu" ? styles.active + " " : "") + styles.navItem}>
-                            <Link href="/resume">Menu</Link>
+                            <Link href="/menu">Menu</Link>
+                        </li>
+                        <li className={(router.pathname === "/about" ? styles.active + " " : "") + styles.navItem}>
+                            <Link href="/about">About</Link>
+                        </li>
+                        <li className={(router.pathname === "/gallery" ? styles.active + " " : "") + styles.navItem}>
+                            <Link href="/gallery">Gallery</Link>
                         </li>
                         <li className={(router.pathname === "/contact" ? styles.active + " " : "") + styles.navItem}>
                             <Link href="/contact">Contact</Link>

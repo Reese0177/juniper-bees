@@ -1,0 +1,35 @@
+.hero{
+    height: 50vh;
+    background-image: linear-gradient(.25turn, rgba(0,0,0,1),70%,rgba(0,0,0,0)),url("../images/home-bg.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vh 2vw;
+}
+
+.header{
+    color: goldenrod;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.subheader{
+    color: saddlebrown;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.btn{
+    background-color: goldenrod;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.btn:hover{
+    filter: brightness(90%);
+    cursor: pointer;
+}

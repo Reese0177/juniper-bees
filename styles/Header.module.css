@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color:darkgoldenrod;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.title:hover{
+    cursor: pointer;
+}
+
+.navList{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navItem{
+    margin: 1vw;
+    color: saddlebrown;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.navItem:hover,
+.active {
+    color: goldenrod;
+    text-decoration: underline goldenrod dashed;
+}
